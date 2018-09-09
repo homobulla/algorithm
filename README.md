@@ -11,3 +11,9 @@
 
 1. 给定一个罗马数字，将其转换成整数。输入确保在 1 到 3999 的范围内。
    [js 解答](https://github.com/homobulla/algorithm/blob/master/13.roman-to-integer.js)
+
+#### 2018-09-09
+
+1. 给定一个正整数 num，编写一个函数，如果 num 是一个完全平方数，则返回 True，否则返回 False。
+> sss说明：不要使用任何内置的库函数，如  sqrt。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/isPerfectSquare.js)
