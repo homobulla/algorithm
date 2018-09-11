@@ -72,15 +72,20 @@ var isValid = function(s) {
             box.push(']')
         } else if (s[i] == '(') {
             box.push(')')
-        } else if (box.pop() != s[i] || box.length != 0) {
-            // console.log(box.pop() == s[i], 'box')
+        } else if (box.pop() != s[i]) {
+            //遇到isValid('"(()("')容错
+
             return false
         }
     }
-    return box.length != 0
+    //  遇到isValid('"(("')情况的容错
+
+    return box.length == 0
 }
-console.log(isValid('"(()("'))
-console.log(isValid('""'))
-console.log(isValid('"(("'))
-console.log(isValid('"(]"'))
-console.log(isValid('"{{)}"'))
+console.log(isValid('()')) //t
+console.log(isValid('"(()("')) // f
+console.log(isValid('""')) // t
+console.log(isValid('"(("')) //f
+console.log(isValid('"(]"')) //f
+console.log(isValid('"{{)}"')) //f
+console.log(isValid('"{[]}"')) //t

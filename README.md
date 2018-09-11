@@ -21,3 +21,8 @@
 
 1. 编写一个函数来查找字符串数组中的最长公共前缀。
    [js 解答](https://github.com/homobulla/algorithm/blob/master/14.longest-common-prefix.js)
+
+#### 2018-09-11
+
+1. 给定一个只包括 '('，')'，'{'，'}'，'['，']'  的字符串，判断字符串是否有效。。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/20.valid-parentheses.js)
