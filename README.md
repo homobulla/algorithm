@@ -24,5 +24,10 @@
 
 #### 2018-09-11
 
-1. 给定一个只包括 '('，')'，'{'，'}'，'['，']'  的字符串，判断字符串是否有效。。
+1. 给定一个只包括 '('，')'，'{'，'}'，'['，']'  的字符串，判断字符串是否有效。
    [js 解答](https://github.com/homobulla/algorithm/blob/master/20.valid-parentheses.js)
+
+#### 2018-09-12
+
+1. 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/9.palindrome-number.js)

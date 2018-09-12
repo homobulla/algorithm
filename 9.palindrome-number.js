@@ -41,5 +41,15 @@
  * @return {boolean}
  */
 var isPalindrome = function(x) {
-    
-};
+    // 负数，整十数倍
+    if (x < 0 || (x % 10 == 0 && x != 0)) return false
+    var num = 0
+    //
+    while (x > num) {
+        num = num * 10 + (x % 10)
+        x = Math.floor(x / 10)
+    }
+    // console.log(x, num)
+    return x == num || x == Math.floor(num / 10)
+}
+// console.log(isPalindrome(11))
