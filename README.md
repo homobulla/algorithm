@@ -34,5 +34,5 @@
 
 #### 2018-09-13
 
-1. 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
+1. 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
    [js 解答](https://github.com/homobulla/algorithm/blob/master/26.remove-duplicates-from-sorted-array.js)
