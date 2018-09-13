@@ -36,3 +36,7 @@
 
 1. 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
    [js 解答](https://github.com/homobulla/algorithm/blob/master/26.remove-duplicates-from-sorted-array.js)
+2. 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/27.remove-element.js)
+3. 给定一个  haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/28.implement-strstr.js)
