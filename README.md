@@ -31,3 +31,8 @@
 
 1. 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
    [js 解答](https://github.com/homobulla/algorithm/blob/master/9.palindrome-number.js)
+
+#### 2018-09-13
+
+1. 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/26.remove-duplicates-from-sorted-array.js)
