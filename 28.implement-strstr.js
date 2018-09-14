@@ -36,31 +36,48 @@
 /**
  * @param {string} haystack
  * @param {string} needle
- * @return {number}
+ * @return {number} s
  */
-var strStr = function(haystack, needle) {
-    return haystack.indexOf(needle)
-}
+
 //和14题有点类似
 // var strStr = function(haystack, needle) {
-//     let tagNnum = 0
+//     let i = 0 //循环变量
 //     let n = 0
-//     if (needle === '') {
-//         return 0
-//     }
-//     if (needle.length > haystack.length) {
+//     let hasL = haystack.length //父串长度
+//     let neeL = needle.length //子串长度
+
+//     if (neeL > hasL) {
+//         //如果子串长大于父串，那么肯定不存在，返回-1
 //         return -1
-//     }
-//     for (let i = 0; i < haystack.length; i++) {
-//         //循环，将第一次的标记i记录下来，方便后续循环开始
-//         if (haystack[i] === needle[n]) {
-//             tagNnum = i
-//             n++
-//             console.log(tagNnum, 'tag')
-//         } else {
-//             console.log(n, i)
+//     } else if (hasL == neeL) {
+//         //如果相等，就对比2个字符串的内容
+//         return haystack == needle ? 0 : -1
+//     } else {
+//         let mid = ''
+//         while (i < hasL) {
+//             //拼合对比的父串，i到len1
+//             mid = haystack.substr(i, neeL) //每次都拿出和子串长度一样的字符串去对比
+//             if (mid == needle) {
+//                 return i //这里返回的就是第一次子串出现的位置，符合indexOf
+//             }
+//             i++
+//         }
+//         if (i == hasL) {
+//             //如果循环到父串最后一位还是没有出现相等，那么就是-1不存在
+//             return -1
 //         }
 //     }
 // }
-console.log(strStr('mississippi', 'issip'))
-// console.log('""\n""'.indexOf(''))
+var strStr = function(haystack, needle) {
+    let arr = [],
+        index = 0
+    if (!needle.length) return index
+    arr = haystack.split(needle)
+    if (arr.length < 2) {
+        index = -1
+    } else {
+        index = arr[0].length
+    }
+    return index
+}
+// console.log()

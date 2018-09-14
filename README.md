@@ -40,3 +40,12 @@
    [js 解答](https://github.com/homobulla/algorithm/blob/master/27.remove-element.js)
 3. 给定一个  haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置。
    [js 解答](https://github.com/homobulla/algorithm/blob/master/28.implement-strstr.js)
+
+#### 2018-09-14
+
+1. 报数序列是指一个整照其中的整数的顺序进数序列，按行报数，得到下一个数。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/38.count-and-say.js)
+2. 给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/53.maximum-subarray.js)
+3. 给定一个仅包含大小写字母和空格  ' '  的字符串，返回其最后一个单词的长度。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/58.length-of-last-word.js)
