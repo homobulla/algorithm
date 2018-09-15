@@ -49,3 +49,8 @@
    [js 解答](https://github.com/homobulla/algorithm/blob/master/53.maximum-subarray.js)
 3. 给定一个仅包含大小写字母和空格  ' '  的字符串，返回其最后一个单词的长度。
    [js 解答](https://github.com/homobulla/algorithm/blob/master/58.length-of-last-word.js)
+
+#### 2018-09-15
+
+1. 给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。最高位数字存放在数组的首位， 数组中每个元素只存储一个数字。你可以假设除了整数 0 之外，这个整数不会以零开头。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/66.js)
