@@ -57,5 +57,10 @@
 
 #### 2018-09-16
 
-1.给定两个二进制字符串，返回他们的和（用二进制表示）。
-[js 解答](https://github.com/homobulla/algorithm/blob/master/67.js)
+1. 给定两个二进制字符串，返回他们的和（用二进制表示）。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/67.js)
+
+#### 2018-09-17
+
+1. 计算并返回  x  的平方根，其中  x 是非负整数。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/69.sqrtx.js)
