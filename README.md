@@ -67,3 +67,8 @@
 
 2. 假设你正在爬楼梯。需要 n  阶你才能到达楼顶。每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
    [js 解答](https://github.com/homobulla/algorithm/blob/master/70.climbing-stairs.js)
+
+#### 2018-09-21
+
+1. 给定一个已按照升序排列的有序数组，找到两个数使得它们相加之和等于目标数。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/167.two-sum-ii-input-array-is-sorted.js)
