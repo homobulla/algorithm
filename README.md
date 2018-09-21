@@ -68,6 +68,15 @@
 2. 假设你正在爬楼梯。需要 n  阶你才能到达楼顶。每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
    [js 解答](https://github.com/homobulla/algorithm/blob/master/70.climbing-stairs.js)
 
+#### 2018-09-19
+
+1. 给定两个有序整数数组  nums1 和 nums2，将 nums2 合并到  nums1  中，使得  num1 成为一个有序数组。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/88.merge-sorted-array.sqrtx.js)
+
+2. 给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/118.pascals-triangle.js)
+3. 给定一个数组，它的第  i 个元素是一支给定股票第 i 天的价格。如果你最多只允许完成一笔交易（即买入和卖出一支股票），设计一个算法来计算你所能获取的最大利润。[js 解答](https://github.com/homobulla/algorithm/blob/master/121.best-time-to-buy-and-sell-stock.js)
+
 #### 2018-09-21
 
 1. 给定一个已按照升序排列的有序数组，找到两个数使得它们相加之和等于目标数。
