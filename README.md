@@ -81,3 +81,8 @@
 
 1. 给定一个已按照升序排列的有序数组，找到两个数使得它们相加之和等于目标数。
    [js 解答](https://github.com/homobulla/algorithm/blob/master/167.two-sum-ii-input-array-is-sorted.js)
+
+#### 2018-09-29
+
+1. 统计所有小于非负整数  n  的质数的数量。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/204.count-primes.js)
