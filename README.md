@@ -86,3 +86,8 @@
 
 1. 统计所有小于非负整数  n  的质数的数量。
    [js 解答](https://github.com/homobulla/algorithm/blob/master/204.count-primes.js)
+
+#### 2018-10-30
+
+1. 给定一个非空数组，返回此数组中第三大的数。如果不存在，则返回数组中最大的数。要求算法时间复杂度必须是 O(n)。
+   [js 解答](https://github.com/homobulla/algorithm/blob/master/414.third-maximum-number.js)
